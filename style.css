@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat"
+}
+html{
+  background:  #1e272e;
+}
+.navbar{
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: #1e272e;
+  width: 100%;
+}
+
+.logo{
+  background: url(tesla.png) no-repeat 50% 50%;
+  background-size: contain;
+  width: 200px;
+  height: 90px;
+  float: left;
+  margin-left: 20px;
+}
+
+.menu{
+  position: absolute;
+  right: 20px;
+}
+
+.menu a{
+  color: #cc0000;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+
+.meun a:hover{
+  color: #f1f1f1;
+}
+
+.header1{
+    width: 100%;
+    height: 500px;
+    background: url(2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    background: url(elon.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 80px;
+}
+.btn{
+  display: none;
+  position: absolute;
+  right: 20px;
+}
+
+.btn:hover > span{
+  background: #212121;
+}
+
+.btn span{
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #ff3f34;
+}
+
+
+p{
+  padding: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    overflow: visible;
+  }
+
+  .menu{
+    width: 100%;
+    right: 0;
+    top: 80px;
+    background: #1e272e;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .menu a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  .btn{
+    display: block;
+    cursor: pointer;
+  }
+  .show{
+    max-height: 500px;
+  }
+}
+h1 {
+  color: #d2dae2;
+  background:#1e272e;
+  font-family: "Roboto"
+}
+
+p{
+  color: #d2dae2;
+  font-family: "Roboto"
+}
+.groot{
+  font-size: 80px;
+  margin-top: -85px;
+  margin-bottom: -25px;
+}
+
+.web{
+  background:#1e272e;
+  width: 100%;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
