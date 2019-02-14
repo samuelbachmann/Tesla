@@ -4,6 +4,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Montserrat"
+  font-size: 10%;
 }
 html{
   background:  #1e272e;
@@ -44,6 +45,21 @@ html{
 
 .meun a:hover{
   color: #f1f1f1;
+}
+.header2{
+    width: 100%;
+    height: 500px;
+    background: url(section-hero-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.header3{
+    width: 100%;
+    height: 350px;
+    background: url(metislogo.png) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 80px;
 }
 
 .header1{
@@ -126,7 +142,7 @@ p{
 }
 .groot{
   font-size: 80px;
-  margin-top: -85px;
+  margin-top: -50px;
   margin-bottom: -25px;
 }
 
@@ -137,4 +153,8 @@ p{
 .container{
   width: 80%;
   margin: auto;
+}
+table{
+  color: #d2dae2;
+  font-family: "Roboto"
 }
